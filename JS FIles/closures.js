@@ -28,3 +28,17 @@ for (var i = 0; i < 3; i++) {
 for (var j = 0; j < 3; j++) {
     funcs[j]();                        // and now let's run each one to see
 }
+
+var myfunc = []
+
+function makeFunc(i) {
+    return function () { console.log(`This num is ${i}`) };
+}
+
+for (var i = 0; i < 4; i++) {
+    myfunc[i] = makeFunc(i);
+}
+
+for (var i = 0; j < 4; i++) {
+    myfunc[i]();
+}
