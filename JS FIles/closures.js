@@ -10,8 +10,6 @@ for (var j = 0; j < 3; j++) {
     funcs[j]();                      // and now let's run each one to see
 }
 
-
-
 // Well, the problem is that the variable i, within each of your anonymous functions, is bound to the same variable outside of the function.
 
 // Classic solution: Closures
