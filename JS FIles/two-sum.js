@@ -9,6 +9,7 @@ var twoSum = function (nums, target) {
     //         pointerA++
     //     }
     //     sum = nums[pointerA] + nums[pointerB];
+
     var sum = 0;
     for (let x = 0; x < nums.length; x++) {
         for (let y = 0; y < nums.length; y++) {
@@ -18,3 +19,17 @@ var twoSum = function (nums, target) {
         }
     }
 }
+
+//USING HASHMAP
+function twoSum(arr, target) {
+    var map = {};
+    for (let i in arr) {
+        if (map[arr[i]]) {
+            return [map[arr[i]], i];
+        } else {
+            map[target - arr[i]] = i;
+        }
+    }
+    return false;
+}
+
