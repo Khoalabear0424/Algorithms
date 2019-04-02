@@ -1,3 +1,5 @@
+//primitive data types are passed as a frozen copy of themselves into a function
+
 var funcs = [];
 
 for (var i = 0; i < 3; i++) {      // let's create 3 functions
