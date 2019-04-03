@@ -110,3 +110,24 @@ tree.insert(11);
 tree.insert(2);
 tree.insert(16);
 tree.insert(7);
+
+
+/*
+When to use which??
+Depends! (Time complexity is the same for both)
+
+If a tree is very wide (all the nodes have two nodes)
+    - space complexity will be very bad because the queue has to store all nodes in the same level
+    - use DFS for this type of tree
+    - the queue will only be the current branch being searched and emptied for the next branch
+If a tree is very long and narrow (not all the nodes have two nodes)
+    - space complexity is worse for DFS if the branch is too deep
+    
+DFS : InOrder
+    - Will order the nodes
+    - Useful if you want order
+DFS : PreOrder
+    - Good for flattening the tree
+    - "Clone" it for creating it again later
+    - Easy to reconstruct
+*/
