@@ -29,3 +29,11 @@ var maxDepth = function(root) {
 //This solution uses recursion to perform a DFS and return the current level to an array
 //The maximum value of this array is returned as the deepest level of the tree
 //If the tree is empty, return 0;
+
+
+//HERE IS ANOTHER RECURSIVE METHOD HOLY SHIT
+
+var maxDepth = function(root) {
+  if (root === null) return 0;
+  return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+};
