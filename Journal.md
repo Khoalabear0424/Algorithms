@@ -13,6 +13,14 @@ Definition:
 - MaxBinaryHeap Parent nodes are always larger than the child notes
 - MinBinaryHeap Parent nodes are always smaller than the child notes
 - Left children are filled out first
+- No implied order between sibling nodes
+
+Why do we need to know this?
+- Binary heaps are used to implement Priority Qieues, very commonly used data structures
+- A priority queue is a queue that stores data based on importance
+
+#### Structure Displayed in An Array
+![Heap Structure](/images/heap.png)
 
 
 
