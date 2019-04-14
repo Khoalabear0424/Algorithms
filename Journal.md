@@ -21,6 +21,9 @@ Why do we need to know this?
 
 #### Structure Displayed in An Array
 ![Heap Structure](/images/heap.png)
+- For any index onf an array n...
+    - The left child is sotred at 2n+1
+    - The right child is sotred at 2n+2
 
 
 
