@@ -26,4 +26,11 @@ Why do we need to know this?
     - The right child is sotred at 2n+2
 
 
+### Priority Queue
+
+Definition:
+- A data structure where each element has a priority.  Elements with higher priorities are served before elements with lower priorities.
+
+### Pointers
+
 
