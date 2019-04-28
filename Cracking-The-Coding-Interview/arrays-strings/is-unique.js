@@ -11,7 +11,7 @@ function isUnique(str) {
     return true;
 }
 //Time Complexity : O(n^2)
-//Space Complexity : O(n)
+//Space Complexity : O(1) (there will never be more than 128 keys in this object)
 
 
 //Without other Data Structure
