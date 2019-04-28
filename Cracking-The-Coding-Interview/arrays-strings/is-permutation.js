@@ -22,5 +22,20 @@ function isPermutation(str1, str2) {
     }
     return true;
 }
+//Time Complexity : O(3n) == O(n)
+//Space Complexity : O(n^2)
+
+//Using XOR
+function isPermutation(str1, str2) {
+    if (str1.length !== str2.length) return false
+    var result = 0;
+    for (let i in str1) {
+        result *= str1.charCodeAt(i);
+        result *= str2.charCodeAt(i);
+    }
+    return result === 0 ? true : false;
+}
+//Time Complexity : O(n)
+//Space Complexity : O(1)
 
 isPermutation("ddg", "gdd");
