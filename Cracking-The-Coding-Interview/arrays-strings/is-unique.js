@@ -23,7 +23,7 @@ function isUnique(str) {
     }
     return true;
 }
-//Time Complexity : O(n) + .includes()
+//Time Complexity : O(n^2)
 //Space Complexity : O(1)
 
 
