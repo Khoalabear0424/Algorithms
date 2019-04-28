@@ -30,8 +30,8 @@ function isPermutation(str1, str2) {
     if (str1.length !== str2.length) return false
     var result = 0;
     for (let i in str1) {
-        result *= str1.charCodeAt(i);
-        result *= str2.charCodeAt(i);
+        result ^= str1.charCodeAt(i);
+        result ^= str2.charCodeAt(i);
     }
     return result === 0 ? true : false;
 }
@@ -39,3 +39,5 @@ function isPermutation(str1, str2) {
 //Space Complexity : O(1)
 
 isPermutation("ddg", "gdd");
+
+
