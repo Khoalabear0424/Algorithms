@@ -16,5 +16,7 @@ function isPermutationOfPalindrome(str) {
     console.log(counter)
     return counter > 1 ? false : true;
 }
+//Time Complexity : O(n)
+//Space Complexity : O(n)
 
 isPermutationOfPalindrome('racedcarff')
