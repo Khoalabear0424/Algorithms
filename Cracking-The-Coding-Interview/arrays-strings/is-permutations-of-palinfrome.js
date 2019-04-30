@@ -1,5 +1,5 @@
 //-------------1.4------------//
-//Using includes
+//Using hashmap
 function isPermutationOfPalindrome(str) {
     str = str.replace(/\s+/g, "");
     var counter = 0;
