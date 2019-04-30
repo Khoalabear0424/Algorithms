@@ -36,4 +36,3 @@ Definition:
 - When using `for(let in in str)`, `i` is actually a `string` not an `int` !!
     * If you try to do `str[i+1]`, `i+1` will actually be concatenated!!
 
-- If it can be helped, dont use built itn functiosn
