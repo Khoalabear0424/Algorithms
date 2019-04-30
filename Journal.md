@@ -30,3 +30,8 @@ Why do we need to know this?
 
 Definition:
 - A data structure where each element has a priority.  Elements with higher priorities are served before elements with lower priorities.
+
+### Arrays and Strings
+
+- When using `for(let in in str)`, `i` is actually a `string` not an `int` !!
+    * If you try to do `str[i+1]`, `i+1` will actually be concatenated!!
