@@ -35,5 +35,3 @@ Definition:
 
 - When using `for(let in in str)`, `i` is actually a `string` not an `int` !!
     * If you try to do `str[i+1]`, `i+1` will actually be concatenated!!
-
-- To find if 1 letter is missing, using XOR is not a bad idea!
