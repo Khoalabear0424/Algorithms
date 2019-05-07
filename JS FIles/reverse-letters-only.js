@@ -29,3 +29,5 @@ var reverseOnlyLetters = function (S) {
     }
     return Sarr.join("")
 };
+
+//terrible solution!
