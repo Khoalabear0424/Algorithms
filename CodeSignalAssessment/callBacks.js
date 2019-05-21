@@ -1,4 +1,4 @@
-function asyncFunction(x) {
+function function1(x) {
     console.log(x + 'is a good number')
 }
 
@@ -7,4 +7,15 @@ function whatNumber(y, callback) {
     callback(z)
 }
 
-whatNumber(2, asyncFunction)
+whatNumber(2, function1)
+
+// function returnNum(y) {
+//     console.log(y)
+//     return y
+// }
+
+// function asyncFunction(x) {
+//     setTimeout((x) => { return x }, 1000)
+// }
+
+// asyncFunction(3)
