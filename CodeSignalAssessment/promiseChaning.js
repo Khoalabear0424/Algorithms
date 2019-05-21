@@ -2,6 +2,8 @@ var promise1 = new Promise((resolve, reject) => {
     setTimeout(() => resolve(1), 1000);
 })
 
+//Values returned by .then() is a promise
+
 promise1
     .then((result) => {
         console.log(result);
@@ -15,6 +17,7 @@ promise1
         console.log(result);
         return result * 3
     })
+
 
 var promise2 = new Promise((resolve, reject) => {
     setTimeout(() => resolve(2), 2500);
