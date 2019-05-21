@@ -26,4 +26,7 @@ var hobbie2 = function (hobby1, hobby2) {
 }
 
 hobbie2.call(person, 'baskbetball', 'dancing')
+
+//-------------Apply Example-------------//
+//Apply works exactly the same as bind but will take additional paramters as an array
 hobbie2.apply(person, ['baskbetball', 'dancing'])
