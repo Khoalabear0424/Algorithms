@@ -41,3 +41,5 @@ logA()
 b = 10
 
 //ALSO, const must be initlized at declaration
+
+this was so hard

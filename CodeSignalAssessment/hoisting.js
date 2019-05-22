@@ -11,7 +11,7 @@ function logVar2() {
     console.log(y)
 }
 logVar2()
-var y; //here the declaration of x is hoisted to the top at runtime
+var y; //here the declaration of y is hoisted to the top at runtime
 
 //not valid
 
